@@ -5,7 +5,7 @@
    - .gitignore(.vscode ir .DS_Store)
 - [x] paviesinti projekta per Github pages(gausim Url)
 - [x] README.md
-- [ ] atlikti dizaino analize
+- [x] atlikti dizaino analize
     - Eilutemis:
         - Header'is
         - Stulpeliai
