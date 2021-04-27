@@ -19,10 +19,11 @@ body {
     }
 
 .left-column {
-    display: inline-block;
     width: 40%;
     float: left;
-    background-color: yellow;
+    padding: 40px;    
+    background-color: #4c46a5;
+    color: #fff;
 }
 
 .main-title {
@@ -32,12 +33,13 @@ body {
 .bottom-links {
     display: inline-block;
     width: 100%;
-    margin-top: 100px;
     text-align: center;
+    
 
 }
 
 .bottom-links > a {
+    color: #fff;
 
 }
 
