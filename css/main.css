@@ -13,9 +13,8 @@ body {
 
 .container {
     display: inline-block;
-    width: 800px;
-    margin-top: 100px;
-    margin-left: calc(50% - 400px);
+    width: 800px;    
+    margin: 100px calc(50% - 400px) 0;
     }
 
 .left-column {
@@ -67,8 +66,11 @@ body {
 .form > .form-row {
     display: inline-block;
     width: 100%;
-    margin-top: 40px;
+    
+}
 
+.form-row + .form-row {
+    margin-top: 40px;
 }
 
 label {
@@ -92,13 +94,28 @@ input {
 }
 
 button {
+    float: left;
+    padding: 10px 45px;    
+    background-color: #015cda;
+    border: 1px solid #0259ca;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 21px;
     
 }
 
 .form-row > span {
+    float: left;
+    padding: 11px; 
+    /* padingas + borderis */
+    line-height: 20px;
 
 }
 
 .form-row > a {
-
+    float: left;
+    text-decoration: none;
+    padding: 11px; 
+    line-height: 20px;
 }
