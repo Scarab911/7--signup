@@ -10,7 +10,7 @@
         - Header'is
         - Stulpeliai
         - Visa kita
-- [ ] surasyti HTML
+- [x] surasyti HTML
 - [ ] issikirpti nuotraukas ir jas panaudoti
     - panaudoti realiatyvu kelia
     - png formatas del permatomumo(transparent) stiliaus
