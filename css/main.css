@@ -15,6 +15,7 @@ body {
     display: inline-block;
     width: 800px;    
     margin: 100px calc(50% - 400px) 0;
+    position: relative;
     }
 
 .left-column {
@@ -27,6 +28,9 @@ body {
     background-size: cover;
     background-position: center;
     color: #fff;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
 }
 
 .main-title {
@@ -34,7 +38,10 @@ body {
 }
 
 .bottom-links {
-    
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    left: 40px;
 }
 
 .bottom-links > a {
@@ -49,7 +56,7 @@ body {
 .right-column {
     width: 60%;
     padding: 60px;
-    float: left;
+    float: right;
     background-color: white;
     position: relative;
 }
