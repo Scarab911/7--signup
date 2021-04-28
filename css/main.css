@@ -24,7 +24,6 @@ body {
     padding: 40px;    
     background-color: #a00000;
     background-image: url(../img/hill.png);
-    /* background-repeat: no-repeat; nereikalingas jei naudojam background-size: cover*/
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -35,10 +34,7 @@ body {
 }
 
 .bottom-links {
-    display: inline-block;
-    width: 100%;
-    margin-top: 200px;
-    text-align: center;
+    
 }
 
 .bottom-links > a {
@@ -51,7 +47,6 @@ body {
 }
 
 .right-column {
-    display: inline-block;
     width: 60%;
     padding: 60px;
     float: left;
@@ -111,7 +106,6 @@ button {
 .form-row > span {
     float: left;
     padding: 11px; 
-    /* padingas + borderis */
     line-height: 20px;
 
 }
@@ -121,6 +115,4 @@ button {
     text-decoration: none;
     padding: 11px; 
     line-height: 20px;
-    color:#0259ca
-     ;
 }
