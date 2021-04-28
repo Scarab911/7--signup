@@ -20,8 +20,13 @@ body {
 .left-column {
     width: 40%;
     float: left;
+    margin-top: 20px;
     padding: 40px;    
-    background-color: #4c46a5;
+    background-color: #a00000;
+    background-image: url(../img/hill.png);
+    /* background-repeat: no-repeat; nereikalingas jei naudojam background-size: cover*/
+    background-size: cover;
+    background-position: center;
     color: #fff;
 }
 
@@ -32,9 +37,8 @@ body {
 .bottom-links {
     display: inline-block;
     width: 100%;
+    margin-top: 200px;
     text-align: center;
-    
-
 }
 
 .bottom-links > a {
@@ -49,7 +53,7 @@ body {
 .right-column {
     display: inline-block;
     width: 60%;
-    padding: 100px;
+    padding: 60px;
     float: left;
     background-color: white;
 }
@@ -66,7 +70,6 @@ body {
 .form > .form-row {
     display: inline-block;
     width: 100%;
-    
 }
 
 .form-row + .form-row {
@@ -76,8 +79,8 @@ body {
 label {
     display: inline-block;
     width: 100%;
-    line-height: 24px;
     font-size: 14px;
+    line-height: 15px;    
     font-weight: bold;
     text-transform: uppercase;
     color: #999;
@@ -89,8 +92,8 @@ input {
     width: 100%;
     font-size: 20px;
     line-height: 1.8em;
-   border: none;
-   border-bottom: #999 solid 1px;
+    border: none;
+    border-bottom: #999 solid 1px;
 }
 
 button {
@@ -118,4 +121,6 @@ button {
     text-decoration: none;
     padding: 11px; 
     line-height: 20px;
+    color:#0259ca
+     ;
 }
