@@ -44,20 +44,6 @@ button {
     
 }
 
-.form-row > span {
-    float: left;
-    padding: 11px; 
-    line-height: 20px;
-
-}
-
-.form-row > a {
-    float: left;
-    text-decoration: none;
-    padding: 11px; 
-    line-height: 20px;
-}
-
 ::placeholder {
     color: r#999;
     font-style: italic;
