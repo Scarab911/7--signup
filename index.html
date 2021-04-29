@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projektas SignUp</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
     <div class="background"></div>
@@ -19,23 +20,24 @@
             </footer>
         </div>
         <div class="right-column">
-            <div class="close">X</div>
+            <div class="close">x</div>
             <form class="form">
                 <div class="form-row">
                     <label for="username">Username</label>
-                    <input id="username" type="text">
+                    <input id="username" type="text" placeholder="Username"> 
+                    <!-- placeholder="Username" inputo lauke pridetu "username" teksta -->
                 </div>
                 <div class="form-row">
                     <label for="email">E-mail</label>
-                    <input id= "email" type="email" required>
+                    <input id= "email" type="email" required placeholder="Email...">
                 </div> 
                 <div class="form-row">
                     <label for="pass">Password</label>
-                    <input id="pass" type="password" required>
+                    <input id="pass" type="password" placeholder="Password" required>
                 </div> 
                 <div class="form-row">
                     <label for="repass">Repeat password</label>
-                    <input id="repass" type="password" required>
+                    <input id="repass" type="password" placeholder="Password" required>
                 </div> 
                 <div class="form-row">
                     <button type="submit">Get started</button>
