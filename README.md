@@ -9,7 +9,7 @@ Paulius B. learning website project_
 
 This project is for learning porpuses only. Thank you for your visit!
 
-Site published [here](https://scarab911.github.io/7-signup)
+Site is published [here](https://scarab911.github.io/7-signup)
 
 Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
